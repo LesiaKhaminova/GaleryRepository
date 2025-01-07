@@ -1,0 +1,46 @@
+.left-section {
+  float: left;
+  width: 40%;
+  background-color: #a1b5ab;
+  margin-top: 70px;
+}
+.right-section {
+  margin-left: -50px;
+  width: 60%;
+  float: right;
+  margin-top: 70px;
+  background: url(/imges/photo_2023-09-30_19-17-45.jpg) no-repeat center
+    center/cover;
+  height: 654px;
+}
+.left-section-paragraph {
+  margin-top: 50px;
+  width: 80%;
+  margin-left: 5%;
+  padding: 30px;
+}
+.form {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 60px;
+  padding-bottom: 30px;
+  border: 3px solid #304040;
+  border-radius: 8px;
+  box-shadow: 15px 5px 5px #1a1f1f;
+}
+.field-large {
+  padding-bottom: 250px;
+}
+.field-small {
+  padding-bottom: 50px;
+}
+.form-field {
+  background-color: #a1b5ab;
+  width: 45%;
+  margin-left: 5%;
+  margin-top: 60px;
+  padding: 20px;
+  border: 5px solid #304040;
+  border-radius: 30px;
+  float: left;
+}

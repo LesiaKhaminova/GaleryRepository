@@ -1,0 +1,45 @@
+body {
+  background-color: #c9d1c8;
+  max-height: 1000px;
+  width: 1850px;
+  background: url(/imges/photo_2023-09-30_17-36-39.jpg) no-repeat center
+    center/cover;
+}
+.dark-style {
+  background-color: #304040;
+  color: #a1b5ab;
+}
+.light-style {
+  background-color: #a1b5ab;
+  color: #304040;
+}
+.plans-paragraph {
+  width: 70%;
+  margin-left: 13%;
+  padding: 40px 50px;
+  font-size: 23px;
+}
+#myVideo {
+  border: 6px solid #a1b5ab;
+  border-radius: 15px;
+  margin-top: 120px;
+  margin-left: 50px;
+}
+#myCanvas {
+  margin-left: 24%;
+  width: 50%;
+  height: 100px;
+  margin-top: 90px;
+  border: 5px solid #ffffff;
+  border-radius: 15px;
+}
+.canvas-text {
+  color: #ffffff;
+  margin-left: 45%;
+  margin-top: -80px;
+}
+.svg {
+  width: 100;
+  height: 100;
+  margin-top: -70px;
+}

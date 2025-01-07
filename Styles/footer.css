@@ -1,0 +1,22 @@
+#footer-left {
+  height: 140px;
+  float: left;
+}
+#footer-right {
+  margin-top: 97px;
+  height: 140px;
+  float: right;
+}
+#footer-avarage {
+  font-size: 30px;
+  margin-left: 35%;
+  padding-top: 55px;
+  height: 115px;
+}
+.footer-section {
+  font-size: 15px;
+  width: 33%;
+  text-align: center;
+  padding-top: 30px;
+  margin-top: 110px;
+}
