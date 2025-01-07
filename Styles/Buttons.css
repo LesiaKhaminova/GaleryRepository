@@ -1,0 +1,38 @@
+.btn-link {
+  padding: 5px 30px;
+  font-size: 23px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 37%;
+}
+.btn-link:hover {
+  background-color: #a1b5ab;
+  color: #304040;
+  border: 3px solid #304040;
+}
+.btn-send {
+  width: 20%;
+  border-radius: 5px;
+  padding: 8px 10px;
+  margin-left: 40%;
+  margin-top: 60px;
+  background-color: #b30000;
+}
+
+.btn {
+  background-color: #b30000;
+  color: #a1b5ab;
+  border: 3px solid #304040;
+  border-radius: 3px;
+  display: flex;
+  padding: 4px 15px;
+  margin-left: 20%;
+  margin-top: 20px;
+  box-shadow: 15px 5px 5px #1a1f1f;
+}
+.btn:hover {
+  background-color: #a1b5ab;
+  color: #304040;
+  border: 3px solid #304040;
+}

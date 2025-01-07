@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мій Сайт</title>
+    <link rel="stylesheet" href="/Styles/Table.css" />
+    <link rel="stylesheet" href="/Styles/Headers.css" />
+    <link rel="stylesheet" href="/Styles/Nav-bar.css" />
+    <link rel="stylesheet" href="/Styles/Img.css" />
+    <link rel="stylesheet" href="/Styles/footer.css" />
+    <link rel="stylesheet" href="/Styles/other.css" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <a
+        class="light-style nav-bar-section"
+        id="nav-main-page-link"
+        href="/index.html"
+        >Головна</a
+      >
+      <a
+        class="dark-style nav-bar-section"
+        id="nav-main-page-link"
+        href="/blog.xml"
+        >Блог
+      </a>
+      <a
+        class="light-style nav-bar-section"
+        id="nav-other-page-links"
+        href="/Galery.html"
+        >Галерея</a
+      >
+      <a
+        class="dark-style nav-bar-section"
+        id="nav-other-page-links"
+        href="/form.html"
+        >Заповнити форму</a
+      >
+      <a
+        class="light-style nav-bar-section"
+        id="nav-other-page-links"
+        onclick="Blocks('listFacts')"
+        >Цікаві факти</a
+      >
+      <a
+        class="dark-style nav-bar-section"
+        id="nav-other-page-links"
+        onclick="Blocks('listMyPlans')"
+        >Мої плани</a
+      >
+      <a
+        class="light-style nav-bar-section"
+        id="nav-other-page-links"
+        href="/what_i_know.html"
+        >Що я знаю</a
+      >
+    </nav>
+    <div id="listMyPlans" class="panel">
+      <p id="MyPlans">
+        <a href="/educational_plans.html" class="MyPlans">Освітні плани</a>
+      </p>
+      <p id="MyPlans">
+        <a href="/life_plans.html" class="MyPlans">Життєві плани</a>
+      </p>
+      <p id="MyPlans">
+        <a href="/my_plans.html" class="MyPlans">Професійні плани</a>
+      </p>
+    </div>
+
+    <div id="listFacts" class="panel">
+      <p id="MyPlans">
+        <a href="/fact1.html" class="MyPlans">Факт 1</a>
+      </p>
+
+      <p id="MyPlans">
+        <a href="/fact2.html" class="MyPlans">Факт 2</a>
+      </p>
+
+      <p id="MyPlans">
+        <a href="/fact3.html" class="MyPlans">Факт 3</a>
+      </p>
+
+      <p id="MyPlans">
+        <a href="/fact4.html" class="MyPlans">Факт 4</a>
+      </p>
+    </div>
+    <br />
+    <canvas id="myCanvas"></canvas>
+    <h1 class="canvas-text">Мій Сайт</h1>
+    <svg class="svg">
+      <circle
+        cx="50"
+        cy="50"
+        r="40"
+        stroke="#304040"
+        stroke-width="2"
+        fill="#a1b5ab"
+      />
+    </svg>
+
+    <main>
+      <br />
+      <img class="my-img" id="img" src="/imges/photo_2023-09-20_16-44-38.jpg" />
+      <table class="information-table" id="table">
+        <caption class="table-caption">
+          Особисті данні
+        </caption>
+        <tr>
+          <th>ПІБ</th>
+          <th>Хамінова Олеся Олександрівна</th>
+        </tr>
+        <tr>
+          <th>стать</th>
+          <td>жіноча</td>
+        </tr>
+        <tr>
+          <th>дата народження</th>
+          <td>07.09.04</td>
+        </tr>
+        <tr>
+          <th>громадянство</th>
+          <td>громадянка України</td>
+        </tr>
+        <tr>
+          <th>сімейний статус</th>
+          <td>незаміжня</td>
+        </tr>
+        <tr>
+          <th>домашня адреса</th>
+          <td>м.Харків, вул Коцюбинська 5</td>
+        </tr>
+        <tr>
+          <th>телефон</th>
+          <td>098765453</td>
+        </tr>
+        <tr>
+          <th>email</th>
+          <td>noname@gmail.com</td>
+        </tr>
+      </table>
+    </main>
+    <footer>
+      <br />
+      <ol class="dark-style footer-section" id="footer-left">
+        <h3>Володіння іноземними мовами</h3>
+        <li>Українська мова</li>
+        <li>Англійська мова</li>
+        <li>Російська мова(нажаль)</li>
+      </ol>
+      <ul class="dark-style footer-section" id="footer-right">
+        <h3>Цікаві Факти (клікай, та переходь)</h3>
+        <li>
+          <a style="text-decoration: none; color: #a1b5ab" href="/fact1.html"
+            >Факт 1
+          </a>
+        </li>
+        <li>
+          <a style="text-decoration: none; color: #a1b5ab" href="/fact2.html"
+            >Факт 2
+          </a>
+        </li>
+        <li>
+          <a style="text-decoration: none; color: #a1b5ab" href="/fact3.html"
+            >Факт 3
+          </a>
+        </li>
+        <li>
+          <a style="text-decoration: none; color: #a1b5ab" href="/fact4.html"
+            >Факт 4
+          </a>
+        </li>
+      </ul>
+      <p class="light-style footer-section" id="footer-avarage">
+        <a style="text-decoration: none; color: #304040" href="/form.html"
+          >Перейти до заповнення форми
+        </a>
+      </p>
+    </footer>
+  </body>
+  <script src="/JsFiles/table.js"></script>
+  <script src="/JsFiles/blocks.js"></script>
+  <script src="/JsFiles/hotKeys.js"></script>
+  <script src="/JsFiles/canvas.js"></script>
+</html>

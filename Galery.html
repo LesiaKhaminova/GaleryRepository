@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Галерея</title>
+    <link rel="stylesheet" href="/Styles/Nav-bar.css" />
+    <link rel="stylesheet" href="/Styles/other.css" />
+    <link rel="stylesheet" href="/Styles/Img.css" />
+    <link rel="stylesheet" href="/Styles/Headers.css" />
+  </head>
+  <body id="dark-overlay">
+    <nav class="nav-bar">
+      <a
+        class="light-style nav-bar-section"
+        id="nav-main-page-link"
+        href="/index.html"
+        >Головна</a
+      >
+      <a
+        class="light-style nav-bar-section"
+        id="nav-other-page-links"
+        href="/Galery.html"
+        >Галерея</a
+      >
+      <a
+        class="dark-style nav-bar-section"
+        id="nav-other-page-links"
+        href="/form.html"
+        >Заповнити форму</a
+      >
+      <a
+        class="light-style nav-bar-section"
+        id="nav-other-page-links"
+        onclick="Blocks('listFacts')"
+        >Цікаві факти</a
+      >
+      <a
+        class="dark-style nav-bar-section"
+        id="nav-other-page-links"
+        onclick="Blocks('listMyPlans')"
+        >Мої плани</a
+      >
+      <a
+        class="light-style nav-bar-section"
+        id="nav-other-page-links"
+        href="/what_i_know.html"
+        >Що я знаю</a
+      >
+    </nav>
+    <div id="listMyPlans" class="panel">
+      <p id="MyPlans">
+        <a href="/educational_plans.html" class="MyPlans">Освітні плани</a>
+      </p>
+      <p id="MyPlans">
+        <a href="/life_plans.html" class="MyPlans">Життєві плани</a>
+      </p>
+      <p id="MyPlans">
+        <a href="/my_plans.html" class="MyPlans">Професійні плани</a>
+      </p>
+    </div>
+
+    <div id="listFacts" class="panel">
+      <p id="MyPlans">
+        <a href="/fact1.html" class="MyPlans">Факт 1</a>
+      </p>
+
+      <p id="MyPlans">
+        <a href="/fact2.html" class="MyPlans">Факт 2</a>
+      </p>
+
+      <p id="MyPlans">
+        <a href="/fact3.html" class="MyPlans">Факт 3</a>
+      </p>
+
+      <p id="MyPlans">
+        <a href="/fact4.html" class="MyPlans">Факт 4</a>
+      </p>
+    </div>
+    <br />
+    <main>
+      <div id="modal" onclick="closeModal()">
+        <div id="modal-content">
+          <span class="close" onclick="closeModal">&times;</span>
+          <img id="modal-img" src="" alt="Modal Image" />
+          <button id="close-button" onclick="closeModal()">x</button>
+        </div>
+      </div>
+
+      <img
+        class="gallery-img"
+        id="img"
+        src="/imges/photo_2023-10-17_17-26-27.jpg"
+        onclick="openModal('/imges/photo_2023-10-17_17-26-27.jpg')"
+      />
+      <img
+        class="gallery-img"
+        id="img"
+        src="/imges/photo_2023-10-17_17-27-00.jpg"
+        onclick="openModal('/imges/photo_2023-10-17_17-27-00.jpg')"
+      />
+      <img
+        class="gallery-img"
+        id="img"
+        src="/imges/photo_2023-10-17_17-27-36.jpg"
+        onclick="openModal('/imges/photo_2023-10-17_17-27-36.jpg')"
+      />
+      <br />
+      <p class="light-header img-caption">Це я з братом</p>
+      <p class="dark-header img-caption">Це моя сестричка</p>
+      <p class="light-header img-caption">Це я з подружками</p>
+    </main>
+  </body>
+  <script src="/JsFiles/blocks.js"></script>
+  <script src="/JsFiles/galery.js"></script>
+</html>

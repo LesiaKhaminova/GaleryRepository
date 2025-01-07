@@ -1,0 +1,20 @@
+.dark-header {
+  background-color: #304040;
+  color: #a1b5ab;
+  border: 3px solid #a1b5ab;
+}
+.light-header {
+  background-color: #a1b5ab;
+  color: #304040;
+  border: 3px solid #304040;
+}
+.header {
+  text-align: center;
+  box-shadow: 15px 5px 5px #1a1f1f;
+  padding: 10px;
+  border-radius: 10px;
+  width: 60%;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+}

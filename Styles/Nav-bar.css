@@ -1,0 +1,73 @@
+.nav-bar {
+  background-color: #304040;
+  color: #a1b5ab;
+  padding: 20px;
+  font-size: 20px;
+  margin-top: 0;
+  height: 23px;
+  box-shadow: 15px 5px 5px #1a1f1f;
+  width: 100%;
+  display: block;
+  position: fixed;
+}
+.nav-facts {
+  background-color: #304040;
+  color: #a1b5ab;
+  padding: 20px;
+  font-size: 20px;
+  margin-top: 0px;
+  height: 23px;
+  box-shadow: 15px 5px 5px #1a1f1f;
+  width: 100%;
+  display: block;
+}
+.nav-bar-section {
+  text-decoration: none;
+  margin-top: -20px;
+  padding: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+.nav-bar-section:hover {
+  color: #00ffff;
+  cursor: default;
+}
+
+#nav-main-page-link {
+  float: left;
+}
+#nav-other-page-links {
+  float: right;
+}
+#listMyPlans {
+  display: block;
+  float: left;
+  width: 169px;
+  margin-left: 64.6%;
+  display: none;
+  position: fixed;
+  margin-top: 82px;
+}
+#listFacts {
+  width: 145px;
+  margin-left: 74%;
+  margin-bottom: -164px;
+  display: block;
+  display: none;
+  position: fixed;
+  margin-top: 82px;
+}
+.MyPlans {
+  text-decoration: none;
+  color: #a1b5ab;
+}
+.MyPlans:hover {
+  color: #00ffff;
+}
+#MyPlans {
+  background-color: #304040;
+  border: 1px solid #a1b5ab;
+  text-align: center;
+  margin-top: -15px;
+  padding: 10px;
+}

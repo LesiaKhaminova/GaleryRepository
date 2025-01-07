@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Заповнити фрму</title>
+    <link rel="stylesheet" href="/Styles/Headers.css" />
+    <link rel="stylesheet" href="/Styles/Nav-bar.css" />
+    <link rel="stylesheet" href="/Styles/other.css" />
+    <link rel="stylesheet" href="/Styles/Buttons.css" />
+    <link rel="stylesheet" href="/Styles/Blocks.css" />
+  </head>
+  <body>
+    <header class="nav-bar">
+      <a
+        class="light-style nav-bar-section"
+        id="nav-main-page-link"
+        href="/index.html"
+        >Головна</a
+      >
+      <a
+        class="light-style nav-bar-section"
+        id="nav-other-page-links"
+        href="/Galery.html"
+        >Галерея</a
+      >
+      <a
+        class="dark-style nav-bar-section"
+        id="nav-other-page-links"
+        href="/form.html"
+        >Заповнити форму</a
+      >
+      <a
+        class="light-style nav-bar-section"
+        id="nav-other-page-links"
+        onclick="Blocks('listFacts')"
+        >Цікаві факти</a
+      >
+      <a
+        class="dark-style nav-bar-section"
+        id="nav-other-page-links"
+        onclick="Blocks('listMyPlans')"
+        >Мої плани</a
+      >
+      <a
+        class="light-style nav-bar-section"
+        id="nav-other-page-links"
+        href="/what_i_know.html"
+        >Що я знаю</a
+      >
+    </header>
+    <nav id="listMyPlans" class="panel">
+      <p id="MyPlans">
+        <a href="/educational_plans.html" class="MyPlans">Освітні плани</a>
+      </p>
+      <p id="MyPlans">
+        <a href="/life_plans.html" class="MyPlans">Життєві плани</a>
+      </p>
+      <p id="MyPlans">
+        <a href="/my_plans.html" class="MyPlans">Професійні плани</a>
+      </p>
+    </nav>
+
+    <nav id="listFacts" class="panel">
+      <p id="MyPlans">
+        <a href="/fact1.html" class="MyPlans">Факт 1</a>
+      </p>
+
+      <p id="MyPlans">
+        <a href="/fact2.html" class="MyPlans">Факт 2</a>
+      </p>
+
+      <p id="MyPlans">
+        <a href="/fact3.html" class="MyPlans">Факт 3</a>
+      </p>
+
+      <p id="MyPlans">
+        <a href="/fact4.html" class="MyPlans">Факт 4</a>
+      </p>
+    </nav>
+    <br />
+    <h1 class="header dark-header">Заповніть форму</h1>
+    <form class="form-field">
+      <input
+        id="email"
+        class="form field-small"
+        type="email"
+        placeholder="Введіть email"
+      />
+      <button id="chekEmail" class="btn">Валідація</button>
+      <input
+        id="phone"
+        type="text"
+        placeholder="Введіть ваш номер телефону"
+        class="form field-small"
+      />
+      <button id="chekNumber" class="btn">Валідація</button>
+      <button class="btn-send dark-header">Надіслати форму</button>
+    </form>
+    <video id="myVideo"  autoplay controls src="/video/istockphoto-1279196582-640_adpp_is.mp4">
+  </body>
+  <script src="/JsFiles/blocks.js"></script>
+  <script src="/JsFiles/form.js"></script>
+</html>
